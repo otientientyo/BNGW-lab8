@@ -1,3 +1,42 @@
 body{
     background-image: url('Bai tap/images/backdrop.gif');
+    font-family: Arial;
+    text-align: Center;
+}
+.wrapper{
+    width: 720px;
+    margin: 0 auto;
+}
+.title{
+    margin: 40px 0 20px 0;
+}
+.entry{
+    width: 220px;
+    float: left;
+    margin: 10px;
+    height: 170px;
+    background-image: url("Bai tap/images/shadow.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 30px;
+
+}
+figure{
+    display: block;
+    width: 202px;
+    height: 170px;
+    background-color: rgba(231,228,216,0.68);
+    margin: 0;
+    padding: 9px;
+    text-align: left ;
+}
+figure img{
+    width: 200px;
+    height: 150px;
+    border: 1px solid #d6d6d6;
+}
+figcaption{
+    background-image: url("Bai tap/images/icon.png");
+    padding-left: 20px;
+    background-repeat: no-repeat;
 }
